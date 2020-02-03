@@ -9,7 +9,7 @@ go get github.com/amooly/go-mocker
 ```
 
 ### Start a Http Server
-Firstly you need to create a json file to define the server config, just like this:
+Firstly you need to create a json file to define the server config, just like this(You can also see the sample file [here](https://github.com/amooly/go-mocker/blob/master/sample/mock.json)):
 ```json
 {
   "server": {
@@ -30,14 +30,14 @@ Firstly you need to create a json file to define the server config, just like th
   ]
 }
 ```
-> You can also see the sample file [here](https://github.com/amooly/go-mocker/blob/master/sample/mock.json)
+
 
 After Then, run the command. The format of go-mocker command is :
 ```shell script
 go-mocker [{path_to_mock_file}]
 ```
 > You can define your own file using absolute path or relative path.
-> if you don't define the file, it will use the [sample file](https://github.com/amooly/go-mocker/blob/master/sample/mock.json)
+> Or it will use the [sample file](https://github.com/amooly/go-mocker/blob/master/sample/mock.json)
 
 
 > Inspired by [go-http-mock-server](https://github.com/jaswdr/go-http-mock-server)
