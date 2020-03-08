@@ -1,3 +1,10 @@
+// MIT License
+// Copyright (c) 2020 Mooly
+
+// This package implements a simple http server mocker.
+// Quick Start:
+// 	 go-mocker [{path_to_mock_file}]
+// there is a default file :sample/mock.json.
 package main
 
 import (
